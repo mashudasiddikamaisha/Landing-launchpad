@@ -1,3 +1,8 @@
+
+.font {
+    font-family: "Raleway", sans-serif;
+}
+
 /* banner style */
 
 header {
@@ -9,13 +14,12 @@ header {
     height: 698px;
     width: auto;
     flex-direction: column;
+    margin-bottom: 116px;
 }
 
 .logo {
   font-family: "Inter", sans-serif;
-  /* font-optical-sizing: auto; */
   font-weight: 900;
-  /* font-style: normal; */
   color: #4E47FF;
   font-size: 35px;
 }
@@ -37,6 +41,8 @@ header {
     display: flex;
     gap: 1041px;
     margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .banner-description {
@@ -51,10 +57,7 @@ header {
 
 
 .banner-title {
-  font-family: "Raleway", sans-serif;
-  /* font-optical-sizing: auto; */
   font-weight: bold;
-  /* font-style: normal; */
   text-align: center;
   color: #252432;
   font-size: 65px;
@@ -74,4 +77,43 @@ header {
     background-color: darkblue;
 }
 
+/* action styles */
 
+.action-title {
+    font-weight: bold;
+    /* text-align: center; */
+    color: #252432
+    font-size: 42px;
+}
+
+.action-sub {
+    font-size: 24px;
+    font-weight: normal;
+    color: rgb(42, 36, 50, 50%);
+    
+    
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+.action-btn{
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    cursor: pointer;
+
+}
+.action-btn:hover {
+    background-color: darkblue;
+}
+.action-img {
+    border: none;
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
