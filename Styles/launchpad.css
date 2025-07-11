@@ -89,7 +89,7 @@ header {
 .action-sub {
     font-size: 24px;
     font-weight: normal;
-    color: rgb(42, 36, 50, 50%);
+    color: rgba(42, 36, 50, 0.5);
     
     
 }
@@ -116,4 +116,50 @@ header {
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+
+/* productive style */
+.productive-user {
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding: 40px 20px;
+    /* margin-top: 115px; */
+    border-radius: 24px;
+    width: 1140px;
+    height: 305px;
+    margin: 115px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.prod-title {
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-top: 50px;
+    margin-left: 142px;
+    margin-right: 142px; 
+    text-align: center;
+}
+.box-title {
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+.cards {
+    display: flex;
+    gap: 167px;
+    justify-content: center;
+    /* margin-bottom: 24px;
+    margin-left: 9px;
+    margin-right: 9px;  */
+    margin: 0 9px 24px 9px;
+} 
+.box-sub {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
 }
